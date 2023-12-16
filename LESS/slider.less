@@ -1,0 +1,40 @@
+
+.carousel {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    overflow: hidden;
+    
+      img{
+          width: 110%;
+      }
+
+      .image-noshow{
+          display:none;
+      }
+      .image-show{
+          display: visible;
+          animation: slideShowFade;
+          animation-duration: 1s;
+      }
+
+      @keyframes slideShowFade {
+          from {opacity: 0}
+          to {opacity: 1}
+      }
+
+      @media screen and (max-width: 500px){
+          display:none;
+      }
+}
+
+.mobile-intro{
+    @media screen and (min-width: 0px) and(max-width: 500px) {
+        visibility: visible;
+    }
+
+    @media screen and (min-width: 501px) and (max-width: 5000px){
+        display:none;
+    }
+}

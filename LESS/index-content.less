@@ -1,0 +1,229 @@
+// index body content
+
+#container {
+    max-width: 1000px;
+    margin: auto; 
+
+}
+
+
+.section-title{
+    font-family: 'Oleo Script', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8rem;
+    text-align: center;
+    color: #F9D96A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    @media @mobile {
+        font-size: 4.1rem;
+        padding: 10px;
+    }
+}
+
+.divider-lines{
+    width: 100%;
+    height: 15px;
+    background: #F4E666;
+
+    @media @mobile {
+        width: 100%;
+        margin: auto; 
+    }
+}
+
+.three-ps{
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+
+    @media @mobile{
+        .mobile-margins;
+        .mobile-flex;
+        margin: 10px;
+    }
+        .three-p-title{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 3.5rem;
+            color: #FA8755;
+            text-align: center;
+
+            @media @mobile{
+                font-size:4rem;
+                text-align: center;
+            }
+        }
+
+        .three-p-box{
+            width: 32%;
+            padding: 1em;
+            border-radius: 1em;
+            -webkit-box-shadow: inset -28px -46px 84px -12px rgba(112,65,65,1);
+-moz-box-shadow: inset -28px -46px 84px -12px rgba(112,65,65,1);
+box-shadow: inset -28px -46px 84px -12px rgba(112,65,65,1);
+        
+
+            @media @mobile{
+                width: 100%;
+                margin: 15px;
+            }
+        }
+
+        .three-p-text{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 2rem;
+            line-height: 2em;
+            text-align: center;
+
+            @media @mobile{
+                .mobile-font;
+                text-align: center;
+            }
+        }
+}
+
+.about-section-content{
+    width: 100%;
+    font-size:3rem;
+    line-height: 1.4em; 
+    text-align: center;
+
+    @media @mobile{
+        .mobile-margins;
+        .mobile-flex;
+        font-size: 2.4rem;
+        
+        margin: auto; 
+    }
+
+    p strong {
+        color: #F9D96A;
+        font-size: 4rem;
+    }
+
+    .about-section-points{
+        width:50%;
+        justify-content: space-between;
+        font-weight: 600;
+    }
+    .features-img{
+        margin: auto; 
+        display: block;
+        width: 70%;
+    }
+}
+
+.features-section{
+    justify-content: space-between;
+    padding-bottom: 20px;
+
+    .features-icons{
+        font-size: 3rem;
+    }
+
+    .features-content{
+        width: 280px;
+    }
+}
+
+.about-lists{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    width:50%;
+    margin: auto;
+    font-size:6rem;
+    line-height: 1em;
+
+    @media @mobile{
+        .mobile-margins;
+        .mobile-flex;
+        align-items: center;
+        width:100%;
+        font-size: 4rem;
+        padding-bottom: 20px;
+
+        ul{
+            margin-block-start: 0em;
+            margin-block-end: 0em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            width: 405px;
+        }
+    }
+}
+
+
+.feature-row{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    padding: 1em;
+
+    @media @mobile{
+        .mobile-flex;
+        font-size: 4rem;
+        width: 100%;
+    }
+    
+    .feature-box{
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: column;
+        font-size:3rem;
+        line-height: 1.3em;
+            padding: 1em;
+            border-radius: 1em;
+
+            -webkit-box-shadow: inset -28px -110px 84px -12px rgba(69,23,23,1);
+            -moz-box-shadow: inset -28px -110px 84px -12px rgba(69,23,23,1);
+            box-shadow: inset -28px -110px 84px -12px rgba(69,23,23,1);
+
+        @media @mobile{
+            width: 100%;
+            font-size: 2.5rem;
+            margin: 8px;
+            // .mobile-margins;
+            padding-bottom: 40px;
+            line-height: 2em;
+            text-align: center; 
+        }
+
+        p a{
+            color:  #FA8755;
+            font-size: 2rem;
+            text-decoration: none;
+        }
+    }
+}
+
+.button-section{
+    margin:auto;
+    display:flex;
+    padding-bottom: 20px;
+    font-size:3rem;
+
+    @media @mobile{
+        font-size:5rem;
+        .mobile-margins;
+    }
+}
+
+.button-content{
+    font-size:4rem;
+    line-height: 1.4em;
+
+    @media @mobile{
+        margin: auto; 
+        text-align: center; 
+        font-size: 3rem;
+        .mobile-margins;
+
+    }
+}

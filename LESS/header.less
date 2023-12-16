@@ -1,0 +1,61 @@
+// header content
+
+*{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+body{
+    display: flex;
+    background: #1E0606;
+    color: #FEFBDD;
+    width: 900px;
+    margin: auto;
+    font-family: Karla;
+    
+    @media @mobile{
+        max-width: 100%;
+    }
+}
+
+
+.header{
+    font-size: 8.5rem;
+    background: #FFD02B;
+    display: flex;
+    justify-content: space-between;
+
+    @media @mobile{
+        font-size: 6rem;
+    }
+
+    .foodie-text{
+        font-family: Podkova;
+        color: white;
+        font-weight: 800;
+        padding-left: 10px;
+        text-decoration: none;
+    }
+
+    .portfolio-text{
+        font-family: Quicksand;
+        font-style: normal;
+        font-weight: normal; 
+    }
+
+    .menu-icon{
+        width: 85px;
+        height: 80px;
+        background: #FFE177;
+
+    }
+
+    .navigation{
+        display: none;
+    }
+}
