@@ -293,8 +293,8 @@ body {
 .about-section-content .features-img {
   margin: auto;
   display: block;
-  height: 50%;
-  width: 50%;
+  height: 25%;
+  width: 25%;
 }
 .features-section {
   justify-content: space-between;
